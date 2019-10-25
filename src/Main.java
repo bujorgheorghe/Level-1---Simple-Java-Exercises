@@ -7,13 +7,13 @@ public class Main {
             System.out.println(N);
         }
         //2.Create An Array of integers from 1 to 5, Call an integer on array using index and print it.
-        int[] a = {1, 2, 3, 4, 5};
-        System.out.println(a [2]);
+        int[] array = {1, 2, 3, 4, 5};
+        System.out.println(array [2]);
 
         //3.Call index outside of the bound. Handle this exception printing “Outside of bound message.”
         try{
-            int[] g = {1,2,3,4,5,6,7};
-            System.out.println(g [118]);
+            int[] array2 = {1,2,3,4,5,6,7};
+            System.out.println(array2 [118]);
         }catch (Exception e) {
             System.out.println("Outside of bound message!");
         }
